@@ -1,122 +1,86 @@
 # Daris Chen
+San Francisco/San Diego/Los Angeles, CA | [LinkedIn](https://linkedin.com/in/darischen) | [darischen.com](https://darischen.com)
 
-**San Francisco/San Diego/Los Angeles, CA** | [LinkedIn](https://linkedin.com/in/darischen) | [Personal Site](https://darischen.com) | [Email](mailto:daris.chen@gmail.com)
-
-B.S. Computer Engineering, UC San Diego. Building across AI/ML, frontend, backend, systems, and research.
-
----
-
-## 🚀 Featured Project: FlipperZillow
-
-AI house tour platform transforming real estate images into immersive 3D experiences. Computer vision pipeline (DepthAnythingV2 → DFormerV2 → SAM3D) on AMD ROCm. Claude API for semantic property analysis, ElevenLabs narration. Frontend: Next.js, Three.js, WebSpatial (Vision Pro).
-
-**Tech:** Next.js, Python, PyTorch, AMD ROCm, Three.js, WebSpatial, Claude API  
-[View on GitHub](https://github.com/darischen/FlipperZillow)
+B.S. Computer Engineering, UC San Diego
 
 ---
 
-## AI/ML
+## FlipperZillow
+AI house tour platform transforming real estate images into immersive 3D experiences. Computer vision pipeline (DepthAnythingV2 → DFormerV2 → SAM3D) on AMD ROCm. Claude API for semantic analysis, ElevenLabs narration. Next.js/Three.js/WebSpatial frontend.
 
-Building intelligent systems from game engines to job automation.
-
-### Mini-Stockfish
-Chess engine with NNUE evaluation. Bitboard move generation, alpha-beta minimax with iterative deepening and quiescence search, transposition tables with MVV-LVA move ordering. Evaluator trained on 16 million Stockfish-annotated positions.
-
-**Tech:** Python, C++, PyTorch  
-[Repo](https://github.com/darischen/Mini-Stockfish)
-
-### Career-Ops Pipeline
-Multi-agent batch job application system with three-tier conductor-worker-judge pipeline. Playwright extraction serialization, parallel worker subagents with Anthropic prompt caching of CV/resume PDFs, background judge enforces structured schema. Two-phase resume variant selection on 10-point scoring lead.
-
-**Tech:** Python, Node.js, Anthropic SDK, Playwright  
-[Repo](https://github.com/darischen/career-ops)
-
-### EEWS (Elon Early Warning System)
-Stock prediction with LSTM RNN trained on Yahoo Finance historical data. Technical indicators (Bollinger Bands, MACD, EMA, SMA, VIX). GPU acceleration via CUDA.
-
-**Tech:** Python, PyTorch, CUDA  
-[Repo](https://github.com/darischen/EEWS)
+Tech Stack: Next.js, Python, PyTorch, AMD ROCm, Three.js, WebSpatial, Claude API
 
 ---
 
-## Frontend
+## Mini-Stockfish
+Chess engine with NNUE evaluation. Bitboard move generation, alpha-beta minimax with iterative deepening, quiescence search, transposition tables with MVV-LVA move ordering. Trained on 16M Stockfish-annotated positions.
 
-Shipping production web applications across e-commerce, SaaS, and personal projects.
+Tech Stack: Python, C++, PyTorch
 
-### gw-website-react
-Next.js e-commerce platform for Groundwork Books. API routes for order processing, event management, semantic search (Pinecone), third-party integrations (Square POS, Instagram, Google Sheets). Redis caching (90% latency reduction), request coalescing for concurrent inventory lookups.
+---
 
-**Tech:** TypeScript, Next.js, Firebase, Pinecone, Redis  
-[Repo](https://github.com/darischen/gw-website-react)
+## Career-Ops Pipeline
+Multi-agent batch job application system. Three-tier conductor-worker-judge pipeline with Playwright extraction serialization, parallel worker subagents, Anthropic prompt caching, two-phase resume variant selection.
 
-### weatherapp
+Tech Stack: Python, Node.js, Anthropic SDK, Playwright
+
+---
+
+## EEWS (Elon Early Warning System)
+Stock prediction with LSTM RNN on Yahoo Finance historical data. Technical indicators (Bollinger Bands, MACD, EMA, SMA, VIX). GPU acceleration via CUDA.
+
+Tech Stack: Python, PyTorch, CUDA
+
+---
+
+## gw-website-react
+Next.js e-commerce platform for Groundwork Books. API routes for order processing, event management, semantic search (Pinecone), third-party integrations (Square, Instagram, Google Sheets). Redis caching (90% latency reduction).
+
+Tech Stack: TypeScript, Next.js, Firebase, Pinecone, Redis
+
+---
+
+## weatherapp
 Weather application with geolocation, real-time data, and interactive maps.
 
-**Tech:** TypeScript, Next.js, PostgreSQL  
-[Repo](https://github.com/darischen/weatherapp)
+Tech Stack: TypeScript, Next.js, PostgreSQL
 
-### dchen
+---
+
+## dchen
 Personal portfolio website.
 
-**Tech:** Next.js, TypeScript, TailwindCSS  
-[Repo](https://github.com/darischen/dchen)
+Tech Stack: Next.js, TypeScript, TailwindCSS
 
 ---
 
-## Backend
+## PatentIQ
+AI-powered patent search and drafting assistant. Semantic search via pgvector embeddings over USPTO dataset. FastAPI backend with Auth0, Claude/OpenAI LLM integration. Vercel frontend + EC2 backend.
 
-Building scalable APIs and services with focus on data infrastructure.
-
-### PatentIQ
-AI-powered patent search and drafting assistant. Semantic search via pgvector embeddings over USPTO dataset. FastAPI backend with Auth0 OAuth2, Claude/OpenAI LLM integration for patent analysis and drafting. Deployed Vercel frontend + EC2 backend.
-
-**Tech:** FastAPI, PostgreSQL pgvector, Auth0, OpenAI, Claude, Supabase, EC2  
-[Repo](https://github.com/darischen/PMA)
+Tech Stack: FastAPI, PostgreSQL, pgvector, Auth0, OpenAI, Claude, Supabase, EC2
 
 ---
 
-## DevOps
+## HB100 Phased Array Radar
+4-element Doppler radar array (10.525 GHz). ESP32-S3 data acquisition, Raspberry Pi 4 DSP: Butterworth bandpass filter, Hanning-windowed FFT, MUSIC angle-of-arrival estimation, Extended Kalman Filter tracking.
 
-Serverless-first deployment (Vercel frontend + API routes), automatic CI/CD. Infrastructure: Vercel, EC2, PostgreSQL, Supabase, Firebase.
-
-**Tech:** Vercel, GitHub Actions, EC2, Docker  
+Tech Stack: C, Python, Signal Processing
 
 ---
 
-## Research
+## FishSense
+Custom R-CNN training pipeline (ResNet-50) for underwater laser-profiling. Dual-laser photogrammetry extracts biological metrics (fish length/mass) from 2D video. Sub-5% error on pixel-to-centimeter conversion.
 
-Novel systems and reproductions of cutting-edge research.
+Tech Stack: Python, PyTorch, Detectron2
 
-### HB100 Phased Array Radar
-4-element Doppler radar array (10.525 GHz). ESP32-S3 collects ADC samples over USB-CDC. Raspberry Pi 4 runs DSP chain: Butterworth bandpass filter, Hanning-windowed FFT, MUSIC angle-of-arrival estimation with spatial smoothing, Extended Kalman Filter tracking (x, y, vx, vy).
+---
 
-**Tech:** C, Python, Signal Processing  
-[Repo](https://github.com/darischen/PhasedArrayRadar)
-
-### FishSense (UCSD E4E)
-Custom R-CNN training pipeline (ResNet-50) for underwater laser-profiling. Dual-laser photogrammetry algorithm extracts biological metrics (fish length/mass) from 2D video. Sub-5% error on pixel-to-centimeter conversion.
-
-**Tech:** Python, PyTorch, Detectron2  
-
-### RedShift
+## RedShift
 LLM jailbreaking research reproducing adversarial prompt engineering. DeBERTa finetuning, adversarial attack generation, benchmarking across language models.
 
-**Tech:** Python, PyTorch, DeBERTa  
-[Repo](https://github.com/darischen/RedShift)
+Tech Stack: Python, PyTorch, DeBERTa
 
 ---
 
 ## Other Projects
-
-- **Simplerfy** — [Repo](https://github.com/darischen/Simplerfy)
-- **8-bit CPU** — [Repo](https://github.com/darischen/8bitCPU)
-- **16-bit Adder** — [Repo](https://github.com/darischen/16bitAdder)
-
----
-
-## Get in Touch
-
-- [Email](mailto:daris.chen@gmail.com)
-- [LinkedIn](https://linkedin.com/in/darischen)
-- [Personal Site](https://darischen.com)
-- [GitHub](https://github.com/darischen)
+[Simplerfy](https://github.com/darischen/Simplerfy) | [8-bit CPU](https://github.com/darischen/8bitCPU) | [16-bit Adder](https://github.com/darischen/16bitAdder)
