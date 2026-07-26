@@ -1,5 +1,5 @@
 # Daris Chen
-San Francisco/San Diego/Los Angeles, CA | [LinkedIn](https://linkedin.com/in/darischen) | [darischen.com](https://darischen.com)
+[LinkedIn](https://linkedin.com/in/darischen) | [darischen.com](https://darischen.com)
 
 B.S. Computer Engineering, UC San Diego
 
