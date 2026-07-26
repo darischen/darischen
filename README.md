@@ -59,4 +59,4 @@ FishSense
 
 ---
 ## Other Projects
-[Simplerfy](https://github.com/darischen/Simplerfy) | [8-bit CPU](https://github.com/darischen/8bitCPU) | [16-bit Adder](https://github.com/darischen/16bitAdder)
+[Simplerfy](https://github.com/darischen/Simplerfy) | [8-bit CPU](https://github.com/darischen/8bitCPU) | [16-bit Adder](https://github.com/darischen/16bitAdder) | [Claude Widget](https://github.com/darischen/claude-statusline)
